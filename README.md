@@ -3,7 +3,7 @@ My ZSH Config
 
 ## Setup
 ```
-git clone --recursive https://github.com/ChrisTitusTech/zsh
+git clone --recursive https://github.com/saichaitanya278/zsh.git
 ln -s -f ~/zsh/.zshrc ~/.zshrc
 ```
 ## Get Dependencies 
@@ -11,4 +11,5 @@ ln -s -f ~/zsh/.zshrc ~/.zshrc
   - autojump - jump to directories with j or jc for child or jo to open in file manager
   - zsh-autosuggestions - Suggestions based on your history
   
+  yay -S zsh  zsh-syntax-highlighting autojump zsh-autosuggestions
 Finish the conversion by changing your user in /etc/passwd to /bin/zsh instead of /bin/bash
